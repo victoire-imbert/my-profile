@@ -1,0 +1,97 @@
+body {
+
+background-color: #CEE5F2;
+
+
+}
+h1 {
+	color: #B80C09;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	font-weight: bold;}
+
+h2 {
+	color: #0D0630;
+	font-family: Helvetica, serif;
+	font-size: 20px;}
+
+
+p {
+	color: #0D0630;
+	font-family: Helvetica, serif;
+	font-size: 15px;}
+
+a {
+	text-decoration: none;
+	color: #0D0630 ;
+
+}
+a:hover {
+	color: #B80C09;
+	font-size: 16px;
+}
+
+/* custom design with class*/
+
+.container {
+	width: 430px;
+	margin: 35px auto;
+}
+
+@media (max-width: 730px) {
+	.container {
+		width: 590px;
+	}
+}
+
+@media (max-width: 450px) {
+	.container {
+		width: 445px;
+	}
+}
+
+.card-white {
+	background: white;
+ 	padding: 45px;
+ 	box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    margin: 5px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+    width: 220px;
+	height: 220px;
+}
+
+.btn-blue {
+	background: #B80C09 ;
+	padding: 12px;
+}
+.btn-blue:hover {
+	background: #B80C09;
+	color: #051039;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 29px;
+	color: #B4B8AB;
+}
+.list-inline i:hover {
+	color: #B80C09;
+}
+
+/* custom design with id */
+
+#introduction p {
+   margin-bottom: 35px;}
+
+
